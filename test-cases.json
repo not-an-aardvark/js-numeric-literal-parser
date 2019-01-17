@@ -1,0 +1,534 @@
+{
+  "valid": {
+    "0": {
+      "type": "Decimal",
+      "integralDigits": [
+        "0"
+      ],
+      "decimalPoint": null,
+      "fractionalDigits": [],
+      "exponent": null
+    },
+    "1": {
+      "type": "Decimal",
+      "integralDigits": [
+        "1"
+      ],
+      "decimalPoint": null,
+      "fractionalDigits": [],
+      "exponent": null
+    },
+    "9": {
+      "type": "Decimal",
+      "integralDigits": [
+        "9"
+      ],
+      "decimalPoint": null,
+      "fractionalDigits": [],
+      "exponent": null
+    },
+    "0.": {
+      "type": "Decimal",
+      "integralDigits": [
+        "0"
+      ],
+      "decimalPoint": ".",
+      "fractionalDigits": [],
+      "exponent": null
+    },
+    ".0": {
+      "type": "Decimal",
+      "integralDigits": [],
+      "decimalPoint": ".",
+      "fractionalDigits": [
+        "0"
+      ],
+      "exponent": null
+    },
+    "0.0": {
+      "type": "Decimal",
+      "integralDigits": [
+        "0"
+      ],
+      "decimalPoint": ".",
+      "fractionalDigits": [
+        "0"
+      ],
+      "exponent": null
+    },
+    "0.00": {
+      "type": "Decimal",
+      "integralDigits": [
+        "0"
+      ],
+      "decimalPoint": ".",
+      "fractionalDigits": [
+        "0",
+        "0"
+      ],
+      "exponent": null
+    },
+    "00": {
+      "type": "LegacyOctalInteger",
+      "prefix": "0",
+      "digits": [
+        "0"
+      ]
+    },
+    "0b01": {
+      "type": "BinaryInteger",
+      "prefix": "0b",
+      "digits": [
+        "0",
+        "1"
+      ]
+    },
+    "0B01": {
+      "type": "BinaryInteger",
+      "prefix": "0B",
+      "digits": [
+        "0",
+        "1"
+      ]
+    },
+    "0o12345607": {
+      "type": "OctalInteger",
+      "prefix": "0o",
+      "digits": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "0",
+        "7"
+      ]
+    },
+    "0O12345607": {
+      "type": "OctalInteger",
+      "prefix": "0O",
+      "digits": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "0",
+        "7"
+      ]
+    },
+    "999999999999999999999999999999e999999999999999999999999999999": {
+      "type": "Decimal",
+      "integralDigits": [
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9",
+        "9"
+      ],
+      "decimalPoint": null,
+      "fractionalDigits": [],
+      "exponent": {
+        "exponentIndicator": "e",
+        "sign": null,
+        "digits": [
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9",
+          "9"
+        ]
+      }
+    },
+    "0b101011101000": {
+      "type": "BinaryInteger",
+      "prefix": "0b",
+      "digits": [
+        "1",
+        "0",
+        "1",
+        "0",
+        "1",
+        "1",
+        "1",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "017": {
+      "type": "LegacyOctalInteger",
+      "prefix": "0",
+      "digits": [
+        "1",
+        "7"
+      ]
+    },
+    "018": {
+      "type": "Decimal",
+      "integralDigits": [
+        "0",
+        "1",
+        "8"
+      ],
+      "decimalPoint": null,
+      "fractionalDigits": [],
+      "exponent": null
+    },
+    "018.": {
+      "type": "Decimal",
+      "integralDigits": [
+        "0",
+        "1",
+        "8"
+      ],
+      "decimalPoint": ".",
+      "fractionalDigits": [],
+      "exponent": null
+    },
+    "018.1": {
+      "type": "Decimal",
+      "integralDigits": [
+        "0",
+        "1",
+        "8"
+      ],
+      "decimalPoint": ".",
+      "fractionalDigits": [
+        "1"
+      ],
+      "exponent": null
+    },
+    "01234567": {
+      "type": "LegacyOctalInteger",
+      "prefix": "0",
+      "digits": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    "012345678": {
+      "type": "Decimal",
+      "integralDigits": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "decimalPoint": null,
+      "fractionalDigits": [],
+      "exponent": null
+    },
+    "012345678.1": {
+      "type": "Decimal",
+      "integralDigits": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "decimalPoint": ".",
+      "fractionalDigits": [
+        "1"
+      ],
+      "exponent": null
+    },
+    "012345678.9": {
+      "type": "Decimal",
+      "integralDigits": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "decimalPoint": ".",
+      "fractionalDigits": [
+        "9"
+      ],
+      "exponent": null
+    },
+    "0xdeadbeef": {
+      "type": "HexInteger",
+      "prefix": "0x",
+      "digits": [
+        "d",
+        "e",
+        "a",
+        "d",
+        "b",
+        "e",
+        "e",
+        "f"
+      ]
+    },
+    "0xDEADBEEF": {
+      "type": "HexInteger",
+      "prefix": "0x",
+      "digits": [
+        "D",
+        "E",
+        "A",
+        "D",
+        "B",
+        "E",
+        "E",
+        "F"
+      ]
+    },
+    "0XdEaDbEeF0123456789": {
+      "type": "HexInteger",
+      "prefix": "0X",
+      "digits": [
+        "d",
+        "E",
+        "a",
+        "D",
+        "b",
+        "E",
+        "e",
+        "F",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ]
+    },
+    "1e0": {
+      "type": "Decimal",
+      "integralDigits": [
+        "1"
+      ],
+      "decimalPoint": null,
+      "fractionalDigits": [],
+      "exponent": {
+        "exponentIndicator": "e",
+        "sign": null,
+        "digits": [
+          "0"
+        ]
+      }
+    },
+    "1e-1": {
+      "type": "Decimal",
+      "integralDigits": [
+        "1"
+      ],
+      "decimalPoint": null,
+      "fractionalDigits": [],
+      "exponent": {
+        "exponentIndicator": "e",
+        "sign": "-",
+        "digits": [
+          "1"
+        ]
+      }
+    },
+    "1e+1": {
+      "type": "Decimal",
+      "integralDigits": [
+        "1"
+      ],
+      "decimalPoint": null,
+      "fractionalDigits": [],
+      "exponent": {
+        "exponentIndicator": "e",
+        "sign": "+",
+        "digits": [
+          "1"
+        ]
+      }
+    },
+    "1.e5": {
+      "type": "Decimal",
+      "integralDigits": [
+        "1"
+      ],
+      "decimalPoint": ".",
+      "fractionalDigits": [],
+      "exponent": {
+        "exponentIndicator": "e",
+        "sign": null,
+        "digits": [
+          "5"
+        ]
+      }
+    },
+    "1E5": {
+      "type": "Decimal",
+      "integralDigits": [
+        "1"
+      ],
+      "decimalPoint": null,
+      "fractionalDigits": [],
+      "exponent": {
+        "exponentIndicator": "E",
+        "sign": null,
+        "digits": [
+          "5"
+        ]
+      }
+    },
+    ".1E5": {
+      "type": "Decimal",
+      "integralDigits": [],
+      "decimalPoint": ".",
+      "fractionalDigits": [
+        "1"
+      ],
+      "exponent": {
+        "exponentIndicator": "E",
+        "sign": null,
+        "digits": [
+          "5"
+        ]
+      }
+    },
+    ".1E-5": {
+      "type": "Decimal",
+      "integralDigits": [],
+      "decimalPoint": ".",
+      "fractionalDigits": [
+        "1"
+      ],
+      "exponent": {
+        "exponentIndicator": "E",
+        "sign": "-",
+        "digits": [
+          "5"
+        ]
+      }
+    },
+    "1.": {
+      "type": "Decimal",
+      "integralDigits": [
+        "1"
+      ],
+      "decimalPoint": ".",
+      "fractionalDigits": [],
+      "exponent": null
+    },
+    "0xDEADBEEFe10": {
+      "type": "HexInteger",
+      "prefix": "0x",
+      "digits": [
+        "D",
+        "E",
+        "A",
+        "D",
+        "B",
+        "E",
+        "E",
+        "F",
+        "e",
+        "1",
+        "0"
+      ]
+    }
+  },
+  "invalid": [
+    "",
+    ".",
+    "00.0",
+    "0c10011",
+    "deadbeef",
+    "0bdeadbeef",
+    "0odeadbeef",
+    "0xdeadbeet",
+    "0deadbeef",
+    "0o9",
+    "0b2",
+    "0Xdeadbeef.",
+    "0xdeadbeef.5",
+    "0b0101.1",
+    "0o765.3",
+    "017.",
+    "017.1",
+    "01234.8",
+    "1e",
+    "1E",
+    "1e2.1",
+    "1 2",
+    "1e+-1",
+    "1e0xdeadbeef"
+  ]
+}

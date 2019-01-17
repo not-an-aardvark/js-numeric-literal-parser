@@ -1,0 +1,31 @@
+{
+  "name": "numeric-literal-parser",
+  "version": "1.0.0",
+  "description": "Parser for JS numeric literals",
+  "main": "grammar.js",
+  "files": [
+    "grammar.js"
+  ],
+  "scripts": {
+    "build": "pegjs grammar.pegjs",
+    "pretest": "npm run build",
+    "prepublishOnly": "npm run build",
+    "test": "mocha test.js",
+    "generate-release": "node-release-script"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/not-an-aardvark/js-numeric-literal-parser.git"
+  },
+  "author": "Teddy Katz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/not-an-aardvark/js-numeric-literal-parser/issues"
+  },
+  "homepage": "https://github.com/not-an-aardvark/js-numeric-literal-parser#readme",
+  "devDependencies": {
+    "@not-an-aardvark/node-release-script": "^0.1.0",
+    "mocha": "^5.2.0",
+    "pegjs": "^0.10.0"
+  }
+}
