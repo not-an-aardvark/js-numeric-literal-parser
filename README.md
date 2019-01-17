@@ -12,7 +12,7 @@ const parser = require('numeric-literal-parser');
 parser.parse('0XdeadBEEF');
 /* Output:
    {
-     type: 'HexIntegerLiteral',
+     type: 'HexInteger',
      prefix: '0X',
      digits: [ 'd', 'e', 'a', 'd', 'B', 'E', 'E', 'F' ]
    } */
